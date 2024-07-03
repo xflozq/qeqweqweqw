@@ -1,0 +1,4 @@
+local args = {
+    [1] = 10000, -- Number of coins to give (max is 999,999)
+}
+game:GetService("Players").LocalPlayer.PlayerGui.GameGui.ClientObjScript.CoinOBJ:FireServer(unpack(args)) -- Execute the script on the client side to give coins to the player
